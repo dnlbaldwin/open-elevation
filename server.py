@@ -1,3 +1,5 @@
+import bottle
+bottle.BaseRequest.MEMFILE_MAX = 1000 * bottle.BaseRequest.MEMFILE_MAX
 import configparser
 import json
 import os
